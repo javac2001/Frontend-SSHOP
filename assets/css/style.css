@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* Background Color */
+    --bg-danger: #f63440;
+    --bg-white: #fff;
+    --bg-light-white: #f5f5f5;
+
+    /* Text Color */
+    --primary-font: 'Poppins', sans-serif;
+    --text-white: #fff;
+    --text-black: #121212;
+    --text-danger: #f63440;
+    --text-gray: #aaa;
+    --text-dark-gray: #777;
+}
+
+body{
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    background: var(--bg-white);
+    color: var(--text-black);
+    overflow-x: hidden;
+}
+
+/* Custom CSS */
+a,
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.btn-danger{
+    background: var(--bg-danger);
+    border-color: var(--bg-danger);
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-danger:hover{
+    color: var(--text-danger);
+    background: transparent;
+}
+
+
+/* Navigation CSS */
+#header .fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0  / 10%);
+}
+
+#header .navbar .navbar-nav .nav-item .nav-link{
+    color: var(--text-black);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+#header .navbar .navbar-nav .nav-item .nav-link:hover,
+#header .navbar .navbar-nav .nav-item .nav-link.active{
+    color: var(--text-danger);
+}
+
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+    background-image: none;
+}
+
+#header .navbar-toggler{
+    box-shadow: none;
+    border: none;
+}
+/* #header .navbar-toggler-icon:focuas{
+    box-shadow: none;
+    border: none;
+} */
+
+
+/* Home CSS */
+
+.home .home-banner-1,
+.home .home-banner-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    min-height: 650px;
+    position: relative;
+}
+.home .home-banner-1{
+    background-image: url('../images/slide1.jpg');
+}
+.home .home-banner-2{
+    background-image: url('../images/slide2.jpg');
+}
+.home .home-banner .home-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+}
+.home .home-banner .home-banner-text h1{
+    font-size: 6rem;
+}
+.home .carousel-indicators [data-bs-target]{
+    background-color: var(--bg-danger);
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+}
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon{
+    background: transparent;
+}
+.home .slider-icon{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--bg-danger);
+}
+
+
+/* Offer CSS */
+
+/* Products CSS */
+
+/* Special CSS */
+
+/* Testimonial CSS */
+
