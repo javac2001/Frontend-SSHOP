@@ -9,6 +9,10 @@
     .home .home-banner .home-banner-text{
         transform: translate(-80%, -50%);
     }
+    /* Offer */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 3rem;
+    }
     /* Special CSS */
 }
 /* -------------------991---------------------- */
