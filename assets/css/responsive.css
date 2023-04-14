@@ -51,8 +51,10 @@
         font-weight: 1000;
         color: var(--bg-danger);
     }
-    /* Offer CSS */
     /* Product CSS */
+    .products .up_to_content h2{
+        font-size: 0.900rem;
+    }
     /* Special CSS */
     /* Testimonial CSS */
 }
