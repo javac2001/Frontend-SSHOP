@@ -29,7 +29,6 @@
         padding-top: 1rem ;
         padding-bottom: 5rem;
     }
-    /* Testimonial CSS */
 }
 /* -------------------767---------------------- */
 @media (max-width:767px) {
@@ -71,6 +70,13 @@
         width: 20%;
     }
     /* Testimonial CSS */
+    .testimonial .testimonial-wrapper{
+        padding: 1rem;
+    }
+    .testimonial .carousel-control-prev,
+    .testimonial .carousel-control-next{
+        display: none;
+    }
 }
 /* -------------------330---------------------- */
 @media (max-width:330px) {
@@ -78,5 +84,4 @@
     .home .home-banner .home-banner-text h2{
         font-size: 1rem;
     }
-    /* Offer CSS */
 }
