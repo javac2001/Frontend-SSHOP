@@ -465,3 +465,26 @@ p{
     text-decoration: underline;
 }
 /* Scroll Back to top */
+#scrollUp{
+    position: fixed;
+    padding-top: 8px;
+    right: 2%;
+    bottom: 3%;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    z-index: 500;
+    cursor: pointer;
+    display: none;
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    background: var(--bg-danger);
+}
+#scrollUp a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scrollUp.scrollActive{
+    display: block;
+}

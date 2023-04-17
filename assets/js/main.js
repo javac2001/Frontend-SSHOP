@@ -1,3 +1,4 @@
+// Countdown
 let dayItem = document.querySelector("#days");
 let hoursItem = document.querySelector("#hours");
 let minItem = document.querySelector("#min");
@@ -20,3 +21,29 @@ let countDown = () => {
 }
 countDown();
 setInterval(countDown, 1000);
+
+// Scroll Back to Top
+function scrolltopBack(){
+    let scrolltopBack = document.querySelector("#scrollUp")
+    window.onscroll = function(){
+        var Scroll = document.documentElement.scrollTop;
+        if(Scroll >= 250){
+            scrolltopBack.classList.add('scrollActive')
+        }
+        else{
+            scrolltopBack.classList.remove('scrollActive')
+        }
+    }
+}
+scrolltopBack()
+
+
+/* Nav Hide */
+let navbar = document.querySelectorAll('.nav-link');
+let navCollapse = document.querySelector('.navbar-collapse.collapse');
+
+navbar.forEach(function(a){
+    a.addEventListener("click", function(){
+        navCollapse.classList.remove("show");
+    })
+})
