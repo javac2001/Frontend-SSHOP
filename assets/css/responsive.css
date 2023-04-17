@@ -84,4 +84,8 @@
     .home .home-banner .home-banner-text h2{
         font-size: 1rem;
     }
+    /* Product CSS */
+    .products .up_to_content h2{
+        font-size: 0.625rem;
+    }
 }
